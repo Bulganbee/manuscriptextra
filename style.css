@@ -1,0 +1,12 @@
+ /* variables */
+ :root {
+	--root-size: 16px;
+	--root-size-h1: 16px;
+	--root-size-h2: 16px;
+	--root-size-h3: 16px;
+	--root-size-p: 16px;
+	--article-margin: 15px;
+	--line-height: 140%; 
+}
+
+
