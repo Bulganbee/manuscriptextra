@@ -16,7 +16,7 @@ p {
 	font-size: 17px;
 }
 #arrowup {
-	background-color: aliceblue;
+	background-color: #9ed197;
 	border: 1.5px solid;
 	text-align: center;
 	margin: auto;
@@ -74,6 +74,7 @@ em {
 	border-radius: 200px 200px 0px 0px;
 	padding: 20px;
 	padding-top: 80px;
+	margin-bottom: 20px;
 	text-align: center;
 }
 .bigtext2 {
@@ -81,6 +82,18 @@ em {
 	font-weight: 500;
 	padding-top: 20px;
 	line-height: 185%;
+}
+a {
+	text-decoration: underline;
+}
+.wrapup {
+	color: #111111;
+	font-weight: 500;
+	border: 2px solid #111111;
+	background-color: #4ee2c7;
+	padding: 12px;
+	border-radius: 20px;
+	margin-top: 20px;
 }
 .stickyheader {
 	background:#111111;
@@ -202,9 +215,9 @@ header {
 }
 
 mark {
-	background-color: #EA7518;
-	padding: 3px;
-	/* border: 1px solid; */
+	background-color: #e1751c;
+	padding: 2px;
+	border: 1px solid;
 }
 .headerdiv {
 	background-color:#111111;
