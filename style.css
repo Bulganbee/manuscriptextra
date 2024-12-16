@@ -20,7 +20,7 @@ article {
 	line-height: 170%;
 }
 section {
-	padding-bottom: 40px;
+	padding-bottom: 20px;
 	margin: 12px;
 }
 em {
@@ -41,4 +41,16 @@ em {
 	position: -webkit-sticky;
 	position: sticky;
 	top: 0;
+}
+.decoratedparagraph {
+	background-color: aquamarine;
+	padding: 12px;
+	margin-top: 20px;
+}
+footer {
+	text-align: center;
+	background-color: black;
+	color: aliceblue;
+	padding-bottom: 60px;
+	padding-top: 20px;
 }
