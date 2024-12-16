@@ -33,16 +33,20 @@ article {
 	padding-bottom: 40px;
 	line-height: 180%;
 }
+#flower {
+	color: #EA7518;
+}
 section {
 	padding-top: 10px;
 	padding-bottom: 20px;
 	margin: 16px;
 	padding: 10px;
 }
+
 .sectionmain {
 	border: 2px solid;
 	border-radius: 20px;
-	background-color: #e0d7fb;
+	background-color: #efd1a2;
 	margin: 12px;
 }
 em {
@@ -51,9 +55,11 @@ em {
 .bigtext {
 	margin-top: 20px;
 	font-size: 22px;
+	font-family: "Playfair Display", serif;
+	font-style: italic;
 	line-height: 170%;
 	border: 2px solid;
-	background-color: #bf85fd;
+	background-color: #acaf88;
 	border-radius: 50px 50px 0px 0px;
 	padding: 20px;
 	padding-top: 20px;
@@ -167,14 +173,14 @@ footer {
 
 header {
 	overflow: hidden;
-	background: radial-gradient(#bf85fd, #90b7f9);
+	background: radial-gradient(#FAFAE5, #90b7f9);
 	border-radius: 200px 200px 0px 0px;
-	border: 2px solid;
+	border: 3px solid;
+	border-bottom: 2px solid;
 }
 
 mark {
-	background-color: #1f1e21;
-	color: #d4d4d4;
+	background-color: #EA7518;
 	padding: 3px;
 	/* border: 1px solid; */
 }
@@ -183,21 +189,22 @@ mark {
 }
 article {
 	z-index: 2;
-	background-color: #f6aaf1;
+	background: radial-gradient(#FAFAE5, #abc8fb);
 	color: rgb(9, 9, 9);
 	position: relative;
 	font-family: "Montserrat", serif;
-	border-left: 2px solid;
-	border-right: 2px solid;
+	border-left: 3px solid;
+	border-right: 3px solid;
 }
 h2 {
 	font-family: "Playfair Display", serif;
 	font-size: 20px;
+	color: #3a3f00;
 }
 .author {
 	background-color: #ececec;
-	border-left: 2px solid;
-	border-right: 2px solid;
+	border-left: 3px solid;
+	border-right: 3px solid;
 	color:#111111;
 	padding: 12px;
 	font-size: 20px;
@@ -210,7 +217,7 @@ h2 {
 	z-index: 500;
 	width: 3px;
 	height: 100%; 
-	background: rgb(116, 61, 245);
+	background: #EA7518;
 	position: fixed;
 	top: 0; 
 	left: 0; 
