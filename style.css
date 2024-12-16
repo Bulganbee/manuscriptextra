@@ -291,37 +291,6 @@ h2 {
 	animation: scaleProgress auto linear;
 	animation-timeline: scroll(root);
   }
-  /* Progress bar styles */
-.progress {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 3px; /* Thin vertical bar */
-	height: 100%; /* Full viewport height */
-	background: #ea4218;
-	z-index: 500;
-	transform-origin: top; /* Rotate from the top */
-	transform: scaleY(0); /* Initial state - no scroll */
-	pointer-events: none; /* Prevent blocking interactions */
-  }
-  
-  /* Use the `scroll` pseudo-element trick */
-  html {
-	scroll-behavior: smooth;
-  }
-  
-  html::before {
-	content: '';
-	position: fixed;
-	left: 0;
-	top: 0;
-	width: 3px; /* Match the progress bar width */
-	height: 100%; /* Full viewport height */
-	background: #ea4218; /* Progress bar color */
-	transform-origin: top;
-	transform: scaleY(calc(var(--scroll, 0) / 100)); /* Dynamic scaling */
-	pointer-events: none;
-  }
   @keyframes scaleProgress {
 	from {
 	  transform: scaleY(0); 
@@ -374,7 +343,7 @@ h2 {
 	
 }
 #headcontainer {
-	max-height: 480px;
+	max-height: 500px;
 	
 }
 header {
