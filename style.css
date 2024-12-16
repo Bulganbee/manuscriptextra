@@ -84,9 +84,13 @@ em {
 	text-align: center;
 }
 .decoratedparagraph {
-	background-color: aquamarine;
-	padding: 12px;
+	background-color: #365071;
+	padding: 16px;
+	border: 1px solid #111111; 
+	border-radius: 20px;
 	margin-top: 20px;
+	color: #FAFAE5;
+	
 }
 footer {
 	text-align: center;
@@ -194,12 +198,15 @@ mark {
 }
 article {
 	z-index: 2;
-	background: #90b7f9;
+	/* background: #ffc875; */
 	color: rgb(9, 9, 9);
 	position: relative;
 	font-family: "Montserrat", serif;
 	border-left: 3px solid;
 	border-right: 3px solid;
+}
+.wrapup {
+	color: #111111;
 }
 h2 {
 	font-family: "Playfair Display", serif;
@@ -222,7 +229,7 @@ h2 {
 	z-index: 500;
 	width: 3px;
 	height: 100%; 
-	background: #EA7518;
+	background: #ea4218;
 	position: fixed;
 	top: 0; 
 	left: 0; 
