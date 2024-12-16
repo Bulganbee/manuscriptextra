@@ -46,7 +46,7 @@ section {
 .sectionmain {
 	border: 2px solid;
 	border-radius: 20px;
-	background-color: #efd1a2;
+	background-color: #cdd197;
 	margin: 12px;
 }
 em {
@@ -65,10 +65,9 @@ em {
 	padding-top: 20px;
 }
 .stickyheader {
-	background:#ececec;
-	border-top: 2px solid; 
-	border-bottom: 2px solid; 
-	color:#111111;
+	background:#111111;
+	border-top: 3px solid; 
+	border-bottom: 3px solid; 
 	padding-left: 15px;
 	padding: 10px;
 	font-weight: bold;
@@ -185,11 +184,11 @@ mark {
 	/* border: 1px solid; */
 }
 .headerdiv {
-	background-color: #ececec;
+	background-color:#111111;
 }
 article {
 	z-index: 2;
-	background: radial-gradient(#FAFAE5, #abc8fb);
+	background: #90b7f9;
 	color: rgb(9, 9, 9);
 	position: relative;
 	font-family: "Montserrat", serif;
@@ -199,10 +198,10 @@ article {
 h2 {
 	font-family: "Playfair Display", serif;
 	font-size: 20px;
-	color: #3a3f00;
+	color:#FAFAE5;
 }
 .author {
-	background-color: #ececec;
+	background: linear-gradient(to bottom right, #c7daf5, #abc8fb);
 	border-left: 3px solid;
 	border-right: 3px solid;
 	color:#111111;
