@@ -49,6 +49,12 @@ section {
 	background-color: #cdd197;
 	margin: 12px;
 }
+.sectionmain2 {
+	border: 2px solid;
+	border-radius: 20px;
+	background-color: #9ed197;
+	margin: 12px;
+}
 em {
 	font-style: italic;
 }
