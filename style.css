@@ -1,9 +1,10 @@
  /* variables */
  :root {
 	--root-size: 16px;
+	--root-size-author: 10px;
 	--root-size-h1: 14.25px;
 	--root-size-small: 8.75px;
-	--root-size-h2: 16px;
+	--root-size-h2: 10px;
 	--root-size-h3: 16px;
 	--root-size-p: 16px;
 	--article-margin: 15px;
@@ -37,6 +38,9 @@ article {
 #flower {
 	color: #EA7518;
 }
+#flower2 {
+	color:#9ed197;
+}
 section {
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -67,9 +71,10 @@ em {
 	line-height: 170%;
 	border: 2px solid;
 	background-color: #acaf88;
-	border-radius: 50px 50px 0px 0px;
+	border-radius: 200px 200px 0px 0px;
 	padding: 20px;
-	padding-top: 20px;
+	padding-top: 80px;
+	text-align: center;
 }
 .stickyheader {
 	background:#111111;
@@ -211,7 +216,7 @@ article {
 }
 h2 {
 	font-family: "Playfair Display", serif;
-	font-size: 20px;
+	font-size: calc(var(--root-size-h2) * 2);
 	color:#FAFAE5;
 }
 .author {
@@ -220,7 +225,7 @@ h2 {
 	border-right: 3px solid;
 	color:#111111;
 	padding: 12px;
-	font-size: 20px;
+	font-size: calc(var(--root-size-author) * 2);
 	text-align: center;
 	font-family: "Montserrat", serif;
 	font-weight: 600;
@@ -254,6 +259,7 @@ h2 {
   @media (min-width:1100px) {
 	:root {
 		--root-size: 16px;
+		--root-size-author: 15px;
 		--root-size-h1: 14.5px;
 		--root-size-small: 8.75px;
 		--root-size-h2: 16px;
@@ -299,6 +305,21 @@ h2 {
 header {
 	border-radius: 8000px 8000px 0px 0px;
 	text-align: center;
+	margin-left: 250px;
+	margin-right: 250px;
+}
+body {
+	background-color: #111111;
+}
+.author {
+	margin-left: 250px;
+	margin-right: 250px;
+}
+.sectionmain {
+	margin-left: 250px;
+	margin-right: 250px;
+}
+.sectionmain2 {
 	margin-left: 250px;
 	margin-right: 250px;
 }
