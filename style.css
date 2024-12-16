@@ -42,23 +42,23 @@ article {
 	color:#9ed197;
 }
 section {
-	padding-top: 20px;
-	padding-bottom: 20px;
-	margin: 4px;
-	padding: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .sectionmain {
 	border: 2px solid;
 	border-radius: 20px;
 	background-color: #cdd197;
-	margin: 12px;
+	margin: 8px;
+	padding: 16px;
 }
 .sectionmain2 {
 	border: 2px solid;
 	border-radius: 20px;
 	background-color: #9ed197;
-	margin: 12px;
+	margin: 8px;
+	padding: 16px;
 }
 em {
 	font-style: italic;
@@ -76,6 +76,12 @@ em {
 	padding-top: 80px;
 	text-align: center;
 }
+.bigtext2 {
+	font-size: 22px;
+	font-weight: 500;
+	padding-top: 20px;
+	line-height: 185%;
+}
 .stickyheader {
 	background:#111111;
 	border-top: 3px solid #111111; 
@@ -90,9 +96,10 @@ em {
 	text-align: center;
 }
 .decoratedparagraph {
+	font-weight: 500;
 	border: 2px solid #111111;
-	background-color: #acaf88;
-	padding: 16px;
+	background-color: #e25a4e;
+	padding: 12px;
 	border-radius: 20px;
 	margin-top: 20px;
 	color: #111111;
@@ -322,5 +329,13 @@ body {
 .sectionmain2 {
 	margin-left: 250px;
 	margin-right: 250px;
+}
+.sectionmain {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+}
+.bigtext {
+	border-radius: 30px;
+	height: 500px;
 }
 	}
