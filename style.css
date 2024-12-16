@@ -29,7 +29,7 @@ p {
 }
 
 article {
-	padding-top: 40px;
+	padding-top: 20px;
 	padding-bottom: 40px;
 	line-height: 170%;
 }
@@ -83,14 +83,15 @@ footer {
 }
 
 #circletext text {
-    font-family: 'Montserrat';
+	font-family: "Glass Antiqua", cursive;
     font-weight: bold;
 	overflow: hidden;
+	
 }
 
 /* Outer Circle */
 #circletext svg:nth-child(1) text {
-    font-size: 30px; 
+    font-size: 36.5px; 
 	overflow: hidden;
 }
 
@@ -121,9 +122,10 @@ footer {
 
 /* Inner Circle */
 #circletext svg:nth-child(2) text {
-    font-size: 18.5px; /* Inner circle font size */
+    font-size: 22px; /* Inner circle font size */
 	overflow: hidden;
 }
+
 
 /* Outer Circle Animation */
 @keyframes rotateOuter {
@@ -156,10 +158,15 @@ article {
 	background-color: white;
 	position: relative;
 }
+h2 {
+	font-family: "EB Garamond", serif;
+	font-size: 22px;
+}
 .author {
 	background-color: black;
 	color: white;
 	padding: 12px;
-	font-size: 22px;
+	font-size: 24px;
 	text-align: center;
+	font-family: "EB Garamond", serif;
 }
