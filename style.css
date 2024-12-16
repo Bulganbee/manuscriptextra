@@ -37,9 +37,9 @@ article {
 	color: #EA7518;
 }
 section {
-	padding-top: 10px;
+	padding-top: 20px;
 	padding-bottom: 20px;
-	margin: 16px;
+	margin: 4px;
 	padding: 10px;
 }
 
@@ -72,8 +72,8 @@ em {
 }
 .stickyheader {
 	background:#111111;
-	border-top: 3px solid; 
-	border-bottom: 3px solid; 
+	border-top: 3px solid #111111; 
+	border-bottom: 3px solid #111111;  
 	padding-left: 15px;
 	padding: 10px;
 	font-weight: bold;
@@ -84,12 +84,12 @@ em {
 	text-align: center;
 }
 .decoratedparagraph {
-	background-color: #365071;
+	border: 2px solid #111111;
+	background-color: #acaf88;
 	padding: 16px;
-	border: 1px solid #111111; 
 	border-radius: 20px;
 	margin-top: 20px;
-	color: #FAFAE5;
+	color: #111111;
 	
 }
 footer {
@@ -182,7 +182,7 @@ footer {
 
 header {
 	overflow: hidden;
-	background: radial-gradient(#FAFAE5, #90b7f9);
+	background-color: #EA7518;
 	border-radius: 200px 200px 0px 0px;
 	border: 3px solid;
 	border-bottom: 2px solid;
@@ -198,7 +198,7 @@ mark {
 }
 article {
 	z-index: 2;
-	/* background: #ffc875; */
+	background:#111111;
 	color: rgb(9, 9, 9);
 	position: relative;
 	font-family: "Montserrat", serif;
@@ -214,7 +214,7 @@ h2 {
 	color:#FAFAE5;
 }
 .author {
-	background: linear-gradient(to bottom right, #c7daf5, #abc8fb);
+	background-color: #9ed197;
 	border-left: 3px solid;
 	border-right: 3px solid;
 	color:#111111;
