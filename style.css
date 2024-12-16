@@ -72,3 +72,100 @@ footer {
 	padding-bottom: 60px;
 	padding-top: 20px;
 }
+
+ /* header animation */
+/* #circletext {  */
+	/* position: relative;  */
+	/* width: 100%;  */
+	/* padding-bottom:50%;  */
+	/* overflow: hidden;  */
+}
+/* #circletext text {  */
+	/* font-family: 'Montserrat';  */
+	/* font-size: 38px;  */
+	/* font-weight: bold;  */
+}
+/* #circletext svg {  */
+	/* position: absolute;  */
+	/* left: 0;  */
+	/* top: 0;  */
+	/* width: 100%;  */
+	/* height: 400px; */
+    /* animation-name: rotate; */
+    /* animation-duration: 16s; */
+    /* animation-iteration-count: infinite; */
+    /* animation-timing-function: linear; */
+}
+/* @keyframes rotate { */
+    /* from { transform: rotate(0deg); } */
+    /* to { transform: rotate(360deg); } */
+}
+
+#circletext {
+    position: relative;
+    width: 100%;
+    padding-bottom: 50%;
+    overflow: hidden;
+}
+
+#circletext text {
+    font-family: 'Montserrat';
+    font-weight: bold;
+	overflow: hidden;
+}
+
+/* Outer Circle */
+#circletext svg:nth-child(1) text {
+    font-size: 30px; 
+	overflow: hidden;
+}
+#circletext svg:nth-child(1) {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    animation-name: rotateOuter;
+    animation-duration: 22s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+	overflow: hidden;
+}
+
+/* Inner Circle */
+#circletext svg:nth-child(2) text {
+    font-size: 18.5px; /* Inner circle font size */
+	overflow: hidden;
+}
+#circletext svg:nth-child(2) {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    animation-name: rotateInner;
+    animation-duration: 18s; /* Faster rotation for inner circle */
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+	overflow: hidden;
+}
+
+/* Outer Circle Animation */
+@keyframes rotateOuter {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Inner Circle Animation */
+@keyframes rotateInner {
+    from {
+        transform: rotate(360deg); /* Reverse rotation */
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
