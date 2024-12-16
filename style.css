@@ -31,12 +31,12 @@ p {
 article {
 	
 	padding-bottom: 40px;
-	line-height: 170%;
+	line-height: 180%;
 }
 section {
 	padding-top: 10px;
 	padding-bottom: 20px;
-	margin: 12px;
+	margin: 16px;
 }
 em {
 	font-style: italic;
@@ -52,9 +52,9 @@ em {
 	padding-top: 30px;
 }
 .stickyheader {
-	background:#111111;
-	/* border: 1.5px solid; */
-	color: rgb(234, 234, 234);
+	background:#ececec;
+	border: 1.5px solid; 
+	color:#111111;
 	padding-left: 15px;
 	padding: 10px;
 	font-weight: bold;
@@ -83,18 +83,20 @@ footer {
     width: 100%;
     padding-bottom: 50%;
     overflow: hidden;
+	color: white;
 }
 
 #circletext text {
-	font-family: "Glass Antiqua", cursive;
+	font-family: "Playfair Display", serif;
     font-weight: bold;
 	overflow: hidden;
+	
 	
 }
 
 /* Outer Circle */
 #circletext svg:nth-child(1) text {
-    font-size: 36.5px; 
+    font-size: 28.5px; 
 	overflow: hidden;
 }
 
@@ -125,7 +127,7 @@ footer {
 
 /* Inner Circle */
 #circletext svg:nth-child(2) text {
-    font-size: 22px;
+    font-size: 17.5px;
 	overflow: hidden;
 }
 
@@ -150,19 +152,19 @@ footer {
     }
 }
 #headcontainer {
-	max-height: 200px;
+	max-height: 180px;
 }
 
 header {
 	max-height: 200px;
 	overflow: hidden;
-	background: radial-gradient(#e66465, #9198e5);
+	background: radial-gradient(#bf85fd, #90b7f9);
 	border-radius: 200px 200px 0px 0px;
 	border: 1.5px solid;
 }
 
 .headerdiv {
-	background-color: #111111;
+	background-color: #ececec;
 }
 article {
 	z-index: 2;
@@ -172,16 +174,19 @@ article {
 	font-family: "Montserrat", serif;
 }
 h2 {
-	font-family: "Montserrat", serif;
+	font-family: "Playfair Display", serif;
 	font-size: 18px;
 }
 .author {
-	background-color: #111111;
-	color: white;
+	background-color: #ececec;
+	border-left: 1.5px solid;
+	border-right: 1.5px solid;
+	color:#111111;
 	padding: 12px;
 	font-size: 20px;
 	text-align: center;
 	font-family: "Montserrat", serif;
+	font-weight: 600;
 }
 
 .progress {
