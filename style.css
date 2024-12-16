@@ -6,9 +6,11 @@
 	--root-size-small: 8.75px;
 	--root-size-h2: 10px;
 	--root-size-h3: 16px;
+	--border-radius: 200px;
 	--root-size-p: 16px;
 	--article-margin: 15px;
 	--line-height: 140%; 
+	--max-height: 160px;
 }
 
 p {
@@ -228,13 +230,13 @@ footer {
 
 
 #headcontainer {
-	max-height: 200px;
+	max-height: calc(var(--max-height) * 1.25);
 }
 
 header {
 	overflow: hidden;
 	background-color: #EA7518;
-	border-radius: 200px 200px 0px 0px;
+	border-radius: calc(var(--border-radius) * 4) calc(var(--border-radius) * 4) 0px 0px;
 	border: 3px solid;
 	border-bottom: 2px solid;
 }
@@ -311,6 +313,8 @@ h2 {
 		--root-size-p: 16px;
 		--article-margin: 15px;
 		--line-height: 140%; 
+		--border-radius: 2000px;
+		--max-height: 440px;
 	}
 	 /* header animation */
 #circletext {
@@ -342,12 +346,8 @@ h2 {
     animation-timing-function: linear;
 	
 }
-#headcontainer {
-	max-height: 550px;
-	
-}
+
 header {
-	border-radius: 8000px 8000px 0px 0px;
 	text-align: center;
 	margin-left: 250px;
 	margin-right: 250px;
