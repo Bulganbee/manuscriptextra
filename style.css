@@ -13,7 +13,20 @@ p {
 	font-family: "Montserrat";
 	font-size: 17px;
 }
-
+#arrowup {
+	background-color: aliceblue;
+	border: 1.5px solid;
+	text-align: center;
+	margin: auto;
+	position: fixed;
+	right: 20px;
+	padding: 10px;
+	padding-left: 14px;
+	padding-right: 14px;
+	bottom: 14px;
+	border-radius: 8px;
+	z-index: 100;
+}
 
 article {
 	padding-top: 40px;
