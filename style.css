@@ -29,7 +29,7 @@ p {
 }
 
 article {
-	padding-top: 20px;
+	
 	padding-bottom: 40px;
 	line-height: 170%;
 }
@@ -52,6 +52,7 @@ em {
 }
 .stickyheader {
 	background-color: white;
+	border: 1.5px solid;
 	padding-left: 15px;
 	padding: 10px;
 	font-size: 20px;
@@ -170,3 +171,25 @@ h2 {
 	text-align: center;
 	font-family: "EB Garamond", serif;
 }
+
+.progress {
+	z-index: 500;
+	width: 3px; /* Make it narrow for a vertical bar */
+	height: 100%; /* Full height of the screen */
+	background: rgb(0, 0, 0);
+	position: fixed;
+	top: 0; /* Align it at the top */
+	left: 0; /* Stick it to the left side of the screen */
+	transform-origin: 50% 0; /* Pivot point for scaling to be at the top */
+	animation: scaleProgress auto linear;
+	animation-timeline: scroll(root);
+  }
+  
+  @keyframes scaleProgress {
+	from {
+	  transform: scaleY(0); /* Start with no height */
+	}
+	to {
+	  transform: scaleY(1); /* Grow to full height */
+	}
+  }
