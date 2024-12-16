@@ -16,13 +16,14 @@ p {
 	font-size: 17px;
 }
 #arrowup {
+	font-weight: 700;
 	background-color: #9ed197;
 	border: 1.5px solid;
 	text-align: center;
 	margin: auto;
 	position: fixed;
 	right: 20px;
-	padding: 10px;
+	padding: 8px;
 	padding-left: 14px;
 	padding-right: 14px;
 	bottom: 14px;
@@ -83,14 +84,15 @@ em {
 	padding-top: 20px;
 	line-height: 185%;
 }
-a {
+#linktoreading {
 	text-decoration: underline;
 }
+
 .wrapup {
 	color: #111111;
 	font-weight: 500;
 	border: 2px solid #111111;
-	background-color: #4ee2c7;
+	background-color: #e2844e;
 	padding: 12px;
 	border-radius: 20px;
 	margin-top: 20px;
