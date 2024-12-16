@@ -9,4 +9,36 @@
 	--line-height: 140%; 
 }
 
+p {
+	font-family: "Montserrat";
+	font-size: 17px;
+}
 
+article {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	line-height: 170%;
+}
+section {
+	padding-bottom: 40px;
+	margin: 12px;
+}
+em {
+	font-style: italic;
+}
+.bigtext {
+	padding-top: 20px;
+	font-size: 24px;
+	line-height: 170%;
+}
+.stickyheader {
+	background-color: white;
+	padding-left: 15px;
+	padding: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	padding-bottom: 20px;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
