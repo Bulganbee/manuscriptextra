@@ -32,6 +32,9 @@ p {
 	border-radius: 8px;
 	z-index: 100;
 }
+p {
+	padding-bottom: 20px;
+}
 
 article {
 	
@@ -69,7 +72,15 @@ article {
 
 section {
 	padding-top: 10px;
-	padding-bottom: 10px;
+}
+sup {
+	line-height: 0%;
+	color: #ea4218;
+	font-size:small;
+	vertical-align:super;
+}
+.bigtext sup {
+	font-size:larger;
 }
 
 .sectionmain {
@@ -78,6 +89,7 @@ section {
 	background-color: #cdd197;
 	margin: 8px;
 	padding: 16px;
+	padding-top: 22px;
 }
 .sectionmain2 {
 	border: 2px solid;
@@ -96,7 +108,7 @@ em {
 	font-style: italic;
 	line-height: 170%;
 	border: 2px solid;
-	background-color: #acaf88;
+	background-color: #acb367;
 	border-radius: 200px 200px 0px 0px;
 	padding: 20px;
 	padding-top: 80px;
@@ -140,6 +152,17 @@ em {
 	border: 2px solid #111111;
 	background-color: #e25a4e;
 	padding: 12px;
+	margin-bottom: 20px;
+	border-radius: 20px;
+	margin-top: 20px;
+	color: #111111;
+	
+}
+.decoratedparagraph2 {
+	font-weight: 500;
+	border: 2px solid #111111;
+	background-color: #e25a4e;
+	padding: 12px;
 	border-radius: 20px;
 	margin-top: 20px;
 	color: #111111;
@@ -174,6 +197,9 @@ footer {
 #circletext svg:nth-child(1) text {
     font-size: calc(var(--root-size-h1) * 2); 
 	overflow: hidden;
+}
+#sup2 {
+	color: #111111;
 }
 
 #circletext svg:nth-child(1) {
@@ -360,6 +386,7 @@ body {
 	margin-right: 250px;
 }
 .sectionmain {
+	padding: 20px;
 	margin-left: 250px;
 	margin-right: 250px;
 }
@@ -370,12 +397,29 @@ body {
 .sectionmain {
 	display: grid;
 	grid-template-columns: 2fr 1fr;
+	gap: 20px;
+	align-items:start;
 }
 .bigtext {
-	border-radius: 30px;
-	height: 500px;
+	margin: 0%;
+	border-radius: 200px 200px 0px 0px;
+	align-items: center;
+	padding-bottom: 60px;
 }
 #arrowup {
 	right: 100px;
+}
+.morebigtext {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	justify-content: space-evenly;
+}
+.decoratedparagraph {
+	width: 50ch;
+	margin-bottom: 30px;
+}
+.decoratedparagraph2 {
+	width: 30ch;
 }
 	}
