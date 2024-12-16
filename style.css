@@ -410,7 +410,22 @@ body {
 .sectionmain2 {
 	margin-left: 250px;
 	margin-right: 250px;
-	
+	padding-bottom: 40px;
+	padding-left: 40px;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center; 
+}
+.sectionmain2 p {
+	width: 60ch;
+	align-items: center;
+}
+.sectionmain2 .bigtext2 {
+	width: 46ch;
+}
+.wrapup {
+	width: 64ch;
 }
 .sectionmain3 {
 	margin-left: 250px;
