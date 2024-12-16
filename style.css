@@ -34,6 +34,7 @@ article {
 	line-height: 170%;
 }
 section {
+	padding-top: 10px;
 	padding-bottom: 20px;
 	margin: 12px;
 }
@@ -51,16 +52,17 @@ em {
 	padding-top: 30px;
 }
 .stickyheader {
-	background-color: white;
-	border: 1.5px solid;
+	background:#111111;
+	/* border: 1.5px solid; */
+	color: rgb(234, 234, 234);
 	padding-left: 15px;
 	padding: 10px;
-	font-size: 20px;
 	font-weight: bold;
 	padding-bottom: 20px;
 	position: -webkit-sticky;
 	position: sticky;
 	top: 0;
+	text-align: center;
 }
 .decoratedparagraph {
 	background-color: aquamarine;
@@ -115,7 +117,7 @@ footer {
     width: 100%;
     height: auto;
     animation-name: rotateInner;
-    animation-duration: 22s; /* Faster rotation for inner circle */
+    animation-duration: 22s; 
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 	overflow: hidden;
@@ -123,7 +125,7 @@ footer {
 
 /* Inner Circle */
 #circletext svg:nth-child(2) text {
-    font-size: 22px; /* Inner circle font size */
+    font-size: 22px;
 	overflow: hidden;
 }
 
@@ -141,7 +143,7 @@ footer {
 /* Inner Circle Animation */
 @keyframes rotateInner {
     from {
-        transform: rotate(360deg); /* Reverse rotation */
+        transform: rotate(360deg); 
     }
     to {
         transform: rotate(0deg);
@@ -150,46 +152,56 @@ footer {
 #headcontainer {
 	max-height: 200px;
 }
+
 header {
 	max-height: 200px;
 	overflow: hidden;
+	background: radial-gradient(#e66465, #9198e5);
+	border-radius: 200px 200px 0px 0px;
+	border: 1.5px solid;
+}
+
+.headerdiv {
+	background-color: #111111;
 }
 article {
 	z-index: 2;
-	background-color: white;
+	background-color: #d4d4d4;
+	color: rgb(9, 9, 9);
 	position: relative;
+	font-family: "Montserrat", serif;
 }
 h2 {
-	font-family: "EB Garamond", serif;
-	font-size: 22px;
+	font-family: "Montserrat", serif;
+	font-size: 18px;
 }
 .author {
-	background-color: black;
+	background-color: #111111;
 	color: white;
 	padding: 12px;
-	font-size: 24px;
+	font-size: 20px;
 	text-align: center;
-	font-family: "EB Garamond", serif;
+	font-family: "Montserrat", serif;
 }
 
 .progress {
 	z-index: 500;
-	width: 3px; /* Make it narrow for a vertical bar */
-	height: 100%; /* Full height of the screen */
-	background: rgb(0, 0, 0);
+	width: 3px;
+	height: 100%; 
+	background: rgb(116, 61, 245);
 	position: fixed;
-	top: 0; /* Align it at the top */
-	left: 0; /* Stick it to the left side of the screen */
-	transform-origin: 50% 0; /* Pivot point for scaling to be at the top */
+	top: 0; 
+	left: 0; 
+	transform-origin: 50% 0; 
 	animation: scaleProgress auto linear;
 	animation-timeline: scroll(root);
   }
   
   @keyframes scaleProgress {
 	from {
-	  transform: scaleY(0); /* Start with no height */
+	  transform: scaleY(0); 
 	}
 	to {
-	  transform: scaleY(1); /* Grow to full height */
+	  transform: scaleY(1); 
 	}
   }
