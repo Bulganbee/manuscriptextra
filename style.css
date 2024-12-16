@@ -156,3 +156,10 @@ article {
 	background-color: white;
 	position: relative;
 }
+.author {
+	background-color: black;
+	color: white;
+	padding: 12px;
+	font-size: 22px;
+	text-align: center;
+}
