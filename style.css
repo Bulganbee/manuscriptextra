@@ -13,10 +13,7 @@
 	--max-height: 160px;
 }
 
-p {
-	font-family: "Montserrat";
-	font-size: 17px;
-}
+
 #arrowup {
 	font-weight: 700;
 	background-color: #9ed197;
@@ -38,7 +35,7 @@ p {
 
 article {
 	
-	padding-bottom: 150px;
+	padding-bottom: 200px;
 	line-height: 180%;
 }
 #flower {
@@ -344,6 +341,11 @@ h2 {
 	  transform: scaleY(1); 
 	}
   }
+  p {
+	font-family: "Montserrat";
+	font-weight: 400;
+	font-size: 17px;
+}
 
   @media (min-width:1100px) {
 	:root {
