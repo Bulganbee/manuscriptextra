@@ -98,6 +98,13 @@ sup {
 	margin: 8px;
 	padding: 16px;
 }
+.sectionmain3 {
+	border: 2px solid;
+	border-radius: 20px;
+	background-color: #cdd197;
+	margin: 8px;
+	padding: 16px;
+}
 em {
 	font-style: italic;
 }
@@ -159,6 +166,16 @@ em {
 	
 }
 .decoratedparagraph2 {
+	font-weight: 500;
+	border: 2px solid #111111;
+	background-color: #e25a4e;
+	padding: 12px;
+	border-radius: 20px;
+	margin-top: 20px;
+	color: #111111;
+	
+}
+.decoratedparagraph3 {
 	font-weight: 500;
 	border: 2px solid #111111;
 	background-color: #e25a4e;
@@ -393,6 +410,16 @@ body {
 .sectionmain2 {
 	margin-left: 250px;
 	margin-right: 250px;
+	
+}
+.sectionmain3 {
+	margin-left: 250px;
+	margin-right: 250px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+	align-items:start;
+	
 }
 .sectionmain {
 	display: grid;
@@ -421,5 +448,8 @@ body {
 }
 .decoratedparagraph2 {
 	width: 30ch;
+}
+.decoratedparagraph3 {
+	width: 40ch;
 }
 	}
